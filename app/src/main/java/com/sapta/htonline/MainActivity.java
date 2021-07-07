@@ -16,6 +16,7 @@ import android.util.Log;
 import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -144,7 +145,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onLogin(View view) {
 
-        String username = "sapta";
+        EditText editText = findViewById(R.id.text_username);
+
+        String username = editText.getText().toString();
 
         //USE PUBLIC SERVER LIST
         //VoicePacket.net - Free Temp. Servers! - US East

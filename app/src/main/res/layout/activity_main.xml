@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/text_username"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="fill_parent"
