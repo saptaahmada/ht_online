@@ -6,4 +6,7 @@ USED :
 - Programming language JAVA
 - Server : murmur server
 
-Don't forget install NDK
+Don't forget install NDK<br><br>
+
+You can try the application with install demo.apk<br>
+Hope can help you and happy coding<br>
